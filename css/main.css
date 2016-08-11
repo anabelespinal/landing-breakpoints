@@ -61,7 +61,7 @@ input {
 }
 /*reponsive*/
 @media (max-width: 535px) {
-	.col-4 {
+	.reponsive {
 		width: 100%;
 	}
 	.formulario {
