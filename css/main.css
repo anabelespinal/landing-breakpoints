@@ -1,73 +1,98 @@
 /* Tu CSS va aqui */
 
+/*header*/
+
 .logo img {
 	width: 40%;
 }
+
 nav {
 	float: right;
 }
+
 a {
 	text-decoration: none;
 	margin-left: 5%;
 	color: #808080;
 	text-align: right;
 }
+
+/*section*/
+
 .section {
 	padding-bottom: 20px;
 	background-color: #808080;
 }
+
 .width-info {
 	width: 90%;
 }
+
 h2 {
 	font-size: 350%;
 }
+
 p {
 	margin-top: -5%;
 }
+
 h4 {
 	display: inline-block;
 }
+
 input {
 	width: 90%;
 	height:30px;
 	margin-top: 2%;
 }
+
 .buttom {
 	background-color: #3EB0F7;
 	border: transparent;
 }
+
 .formulario {
 	margin-top: 20%;
 	padding: 10%;
 	border-radius: 5%;
 	background-color: #9A9A9A;
 }
+
 .footer {
 	margin-top: 2%;
 }
+
 /*uttilities*/
+
 .text-center {
 	text-align: center;
 }
+
 .text-white {
 	color: #FFFFFF;
 }
+
 .marg-top {
 	margin-top: 3%;
 }
+
 .open-sans {
 	font-family: open sans;
 }
+
 /*reponsive*/
+
 @media (max-width: 535px) {
+
 	.reponsive {
 		width: 100%;
 	}
+
 	.formulario {
 		margin-top: 10px;
 		padding: 10px 5px;
 	}
+
 	nav {
 		margin-top: -65px;
 	}
